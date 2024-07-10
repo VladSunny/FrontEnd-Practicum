@@ -88,14 +88,14 @@ body {
 }
 
 .container2 ul li::before {
-    content: '*';
+    content: '●';
     position: absolute;
     left: 0;
     color: #007BFF;
 }
 
 .dots ul li::before {
-    content: '*';
+    content: '●';
     color: #007BFF;
 }
 
@@ -109,4 +109,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.highlight {
+    background-color: #eef4ff;
+    border-radius: 12px;
+    padding: 15px;
 }
