@@ -83,14 +83,24 @@ body {
     content: '-';
     position: absolute;
     left: 0;
-    color: #007BFF; /* Синий цвет для маркера */
+    color: #007BFF;
 }
 
 .container2 ul li::before {
     content: '*';
     position: absolute;
     left: 0;
-    color: #007BFF; /* Синий цвет для маркера */
+    color: #007BFF;
+}
+
+.dots ul li::before {
+    content: '*';
+    color: #007BFF;
+}
+
+.line ul li::before {
+    content: '-';
+    color: #007BFF;
 }
 
 .info-block {
