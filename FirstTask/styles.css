@@ -80,6 +80,13 @@ body {
     color: #007BFF; /* Синий цвет для маркера */
 }
 
+.container2 ul li::before {
+    content: '*';
+    position: absolute;
+    left: 0;
+    color: #007BFF; /* Синий цвет для маркера */
+}
+
 .info-block {
     display: flex;
     flex-direction: column;
