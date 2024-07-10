@@ -13,6 +13,7 @@ body {
     flex-direction: row;
     align-items: center;
     color: #0d4cd3;
+    z-index: 100;
 }
 
 .header a {
