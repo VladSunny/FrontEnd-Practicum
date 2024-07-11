@@ -1,6 +1,7 @@
 body {
     background-color: #fafcff;
     font-family: 'Lato', 'Arial', sans-serif, -apple-system;
+    font: inherit;
 }
 
 .header {
